@@ -36,10 +36,27 @@
         /* STARTER */
         font-family: sans-serif;
         background-color: #ddd;
-        font-size: 40px;
-        margin: 40px;
-
+        font-size: 34px;
+        margin: 20px;
         /* FLEXBOX */
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* gap: 5px; */
+      }
+
+      el {
+        flex: 0 1 20px;
+      }
+
+      .el--1 {
+        align-self: flex-start;
+      }
+
+      .el--5 {
+        align-self: stretch;
+        order: -1;
       }
     </style>
   </head>
